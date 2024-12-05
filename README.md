@@ -5,7 +5,7 @@
 
 > O algoritmo implementado utiliza a estratégia do seguidor de paredes para resolver labirintos. Essa abordagem consiste em seguir uma das paredes do labirinto enquanto tenta encontrar a saída, garantindo que o agente eventualmente percorra todo o espaço acessível do labirinto. A lógica foi desenvolvida para trabalhar com a biblioteca pyamaze, que permite a geração e visualização de labirintos.
 
-### Funcionamento do Algoritmo
+### 📌Funcionamento do Algoritmo
 
 1. **Orientação Inicial:**  
    O agente começa em uma posição inicial no labirinto, com uma direção inicial predefinida ("Norte").
@@ -23,7 +23,7 @@
 
 ---
 
-### Importância do Algoritmo
+### ❗Importância do Algoritmo
 
 1. **Resolução de Labirintos:**  
    O algoritmo é uma solução eficiente para navegar labirintos onde a topologia completa não é conhecida previamente. Sua simplicidade o torna uma boa escolha para situações em que o ambiente é explorado de forma local.
@@ -41,7 +41,7 @@
 
 ---
 
-### Destaques do Código
+### ⭐Destaques do Código
 
 - **Dois Agentes:** Um segue o caminho completo, e o outro segue o caminho otimizado, permitindo comparar eficiência.
 - **Visualização Interativa:** A biblioteca `pyamaze` oferece uma interface gráfica intuitiva para explorar o comportamento do algoritmo.
@@ -86,16 +86,6 @@ Instale as dependências necessárias:
 
 ```
 pip install pyamaze
-```
-
-## ☕ Usando Algoritmo A*
-
-Para usar o projeto, siga estas etapas:
-
-1. Execute o código:
-
-```
-python wallFollower.py
 ```
 
 2. O programa irá gerar um labirinto aleatório e exibir a solução encontrada pelo algoritmo A*.
