@@ -60,7 +60,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 pip install pyamaze
 ```
 
-## 🚀 Instalando Algoritmo A*
+## 🚀 Instalando Wall Follower Algorithm 
 
 Para instalar o projeto, siga estas etapas:
 
