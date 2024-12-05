@@ -59,7 +59,7 @@ def seguidorParedes(m):
 
 #função principal
 if __name__ == '__main__':
-    labirinto = maze(6, 6) 
+    labirinto = maze(10, 10) 
     labirinto.CreateMaze(loopPercent=20) 
 
     agente = agent(labirinto, shape='arrow', color='blue', footprints=True)
@@ -67,4 +67,14 @@ if __name__ == '__main__':
     caminho, caminho2 = seguidorParedes(labirinto) 
     labirinto.tracePath({agente: caminho2})  
     labirinto.tracePath({agente2: caminho})  
+
+    # Calcula os scores
+    score_agente1 = len(caminho2)
+    score_agente2 = len(caminho)
+    
+    # Exibe os scores
+    print(f"Score do Agente 1 (caminho completo): {score_agente1} movimentos")
+    print(f"Score do Agente 2 (caminho simplificado): {score_agente2} movimentos")
+    
+
     labirinto.run()  
