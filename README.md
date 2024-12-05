@@ -1,7 +1,9 @@
 # Algoritmo Wall Follower - Labirinto
 
-<img src="img/azul.jpeg" alt="Exemplo imagem" width="300px;">
-<img src="img/verde.jpeg" alt="caminho verde"width="300px;">
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="img/azul.jpeg" alt="Exemplo imagem" width="300px">
+    <img src="img/verde.jpeg" alt="Caminho verde" width="300px">
+</div>
 
 > O algoritmo implementado utiliza a estratégia do seguidor de paredes para resolver labirintos. Essa abordagem consiste em seguir uma das paredes do labirinto enquanto tenta encontrar a saída, garantindo que o agente eventualmente percorra todo o espaço acessível do labirinto. A lógica foi desenvolvida para trabalhar com a biblioteca pyamaze, que permite a geração e visualização de labirintos.
 
